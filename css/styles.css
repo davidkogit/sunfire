@@ -201,6 +201,12 @@ ul {
     line-height: 1;
 }
 
+.nav-logo-img {
+    max-height: 100px;
+    height: auto;
+    width: auto;
+}
+
 .nav-logo-text {
     font-family: var(--font-body);
     font-size: 1.25rem;
@@ -819,6 +825,18 @@ ul {
 .pairing-card-image {
     aspect-ratio: 5 / 4;
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-bg-elevated);
+}
+
+.pairing-card-logo {
+    max-width: 70%;
+    max-height: 70%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
 }
 
 .pairing-placeholder-image {
@@ -930,6 +948,19 @@ ul {
 .contact {
     padding: var(--space-4xl) 0;
     background: var(--color-bg-elevated);
+}
+
+.contact-cta {
+    text-align: center;
+    max-width: var(--container-narrow);
+    margin: 0 auto;
+}
+
+.contact-cta-subtitle {
+    font-size: 1.05rem;
+    color: var(--color-text-secondary);
+    line-height: 1.7;
+    margin-bottom: var(--space-xl);
 }
 
 .contact-grid {
