@@ -147,6 +147,11 @@ ul {
     border: none;
 }
 
+.btn-nice-store {
+    text-transform: none !important;
+    letter-spacing: 0 !important;
+}
+
 .btn-primary {
     background-color: var(--color-accent);
     color: var(--color-bg);
