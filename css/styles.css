@@ -689,6 +689,13 @@ ul {
     overflow: hidden;
 }
 
+.tech-card-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: var(--radius-md);
+}
+
 .tech-placeholder-image {
     width: 100%;
     aspect-ratio: 3 / 2;
@@ -1025,6 +1032,18 @@ ul {
     color: var(--color-text-muted);
     line-height: 1.6;
     max-width: 300px;
+}
+
+.footer-nice-logo {
+    margin-top: var(--space-md);
+    width: 40px;
+    height: 40px;
+    opacity: 0.8;
+    transition: opacity var(--transition-fast);
+}
+
+.footer-nice-logo:hover {
+    opacity: 1;
 }
 
 .footer-links h4 {
