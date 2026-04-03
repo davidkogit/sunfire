@@ -346,6 +346,13 @@ ul {
     z-index: 0;
 }
 
+.hero-bg-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
 .hero-placeholder-image {
     width: 100%;
     height: 100%;
@@ -525,6 +532,13 @@ ul {
 .amplifier-image {
     position: sticky;
     top: 100px;
+}
+
+.amplifier-detail-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: var(--radius-md);
 }
 
 .amplifier-placeholder-image {
@@ -1389,6 +1403,12 @@ ul {
     text-align: center;
     max-width: var(--container-narrow);
     margin: 0 auto;
+}
+
+.about-nice-logo {
+    width: 60px;
+    height: 60px;
+    margin-bottom: var(--space-md);
 }
 
 .about-nice-text {
