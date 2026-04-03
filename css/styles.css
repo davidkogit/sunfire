@@ -613,6 +613,22 @@ ul {
     border-bottom: none;
 }
 
+.specs-actions {
+    display: flex;
+    justify-content: center;
+    padding-top: var(--space-xl);
+}
+
+.btn-download {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-xs);
+}
+
+.btn-download svg {
+    flex-shrink: 0;
+}
+
 .spec-label {
     font-size: 0.85rem;
     font-weight: 500;
