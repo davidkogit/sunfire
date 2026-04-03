@@ -253,6 +253,8 @@ ul {
     color: var(--color-bg) !important;
     border-radius: var(--radius-sm);
     font-weight: 600 !important;
+    text-transform: none !important;
+    letter-spacing: 0 !important;
 }
 
 .nav-cta:hover {
@@ -1434,9 +1436,10 @@ ul {
 }
 
 .about-nice-logo {
+    display: block;
     width: 60px;
     height: 60px;
-    margin-bottom: var(--space-md);
+    margin: 0 auto var(--space-md);
 }
 
 .about-nice-text {
