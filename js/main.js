@@ -10,27 +10,12 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 /**
- * Navigation - scroll effect and mobile toggle
+ * Navigation - mobile toggle
  */
 function initNavigation() {
-    const nav = document.getElementById('nav');
     const toggle = document.getElementById('navToggle');
     const mobileMenu = document.getElementById('mobileMenu');
     const mobileLinks = document.querySelectorAll('.mobile-menu-link, .mobile-menu-cta');
-
-    // Scroll effect
-    let lastScroll = 0;
-    window.addEventListener('scroll', () => {
-        const currentScroll = window.pageYOffset;
-        
-        if (currentScroll > 50) {
-            nav.classList.add('scrolled');
-        } else {
-            nav.classList.remove('scrolled');
-        }
-        
-        lastScroll = currentScroll;
-    }, { passive: true });
 
     // Mobile toggle
     if (toggle && mobileMenu) {

@@ -170,14 +170,11 @@ ul {
 
 /* --- Navigation --- */
 .nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
+    position: relative;
     z-index: 1000;
     padding: var(--space-sm) 0;
-    transition: all var(--transition-base);
-    background: transparent;
+    background: var(--color-bg);
+    border-bottom: 1px solid var(--color-border);
 }
 
 .nav.scrolled {
