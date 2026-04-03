@@ -1,0 +1,151 @@
+# Sunfire 301 Redirects
+# All old sunfire.com URLs redirect to the new site root
+# Generated for SEO preservation
+
+# Product detail pages
+/productdetail.asp?id=1	/	301
+/productdetail.asp?id=2	/	301
+/productdetail.asp?id=3	/	301
+/productdetail.asp?id=4	/	301
+/productdetail.asp?id=8	/	301
+/productdetail.asp?id=9	/	301
+/productdetail.asp?id=10	/	301
+/productdetail.asp?id=12	/	301
+/productdetail.asp?id=14	/	301
+/productdetail.asp?id=15	/	301
+/productdetail.asp?id=16	/	301
+/productdetail.asp?id=17	/	301
+/productdetail.asp?id=18	/	301
+/productdetail.asp?id=19	/	301
+/productdetail.asp?id=21	/	301
+/productdetail.asp?id=22	/	301
+/productdetail.asp?id=23	/	301
+/productdetail.asp?id=24	/	301
+/productdetail.asp?id=26	/	301
+/productdetail.asp?id=27	/	301
+/productdetail.asp?id=28	/	301
+/productdetail.asp?id=32	/	301
+/productdetail.asp?id=33	/	301
+/productdetail.asp?id=34	/	301
+/productdetail.asp?id=35	/	301
+/productdetail.asp?id=36	/	301
+
+# Product pages
+/subwoofers.htm	/	301
+/technology.htm	/	301
+/amp.htm	/	301
+/receiver.htm	/	301
+/products.htm	/	301
+/products.asp	/	301
+/products/index.html	/	301
+/products/subsignature.shtml	/	301
+/products/subsuperjr.shtml	/	301
+/products/submark4.shtml	/	301
+/products/cinemagrandsig.shtml	/	301
+/products/ultimatereceiver.shtml	/	301
+/products/theater-speakers	/	301
+/products/subwoofers	/	301
+/products/all/subwoofers/sds	/	301
+
+# Product-specific pages
+/300TwoFrontPR.htm	/	301
+/200SevenFrontPR.htm	/	301
+/400FiveFrontPR.htm	/	301
+/CR.htm	/	301
+/CRT.htm	/	301
+/D_Subs.htm	/	301
+/HR.htm	/	301
+/SuperJuniorPR.htm	/	301
+/Signature600FrontPR.htm	/	301
+/TrueSubwooferEQPR.htm	/	301
+/TrueSubwooferEQSigPR.htm	/	301
+/truesubmarkIV.htm	/	301
+/truesub.htm	/	301
+/atmosXT.asp	/	301
+/ultimatereceiver_II.html	/	301
+/ultimatereceiver.html	/	301
+/UltimateReceiverV2.htm	/	301
+/TheaterGrandIV.htm	/	301
+/TGA7200.html	/	301
+/TGA7400.html	/	301
+/TGR3.htm	/	301
+/TGP5.htm	/	301
+/Symphonic_Reference.htm	/	301
+/cinmseriesII.htm	/	301
+/cinemaseven.htm	/	301
+/cinemagrandsignature.htm	/	301
+/ampseriesII.htm	/	301
+/bestdemos.htm	/	301
+/carver.htm	/	301
+/carver/index.html	/	301
+/contact.htm	/	301
+/default.asp	/	301
+/demos/index.html	/	301
+/downloads_archive.asp	/	301
+/index.html	/	301
+/reviews.htm	/	301
+/service.asp	/	301
+/sub_wireless_kit.asp	/	301
+/support.htm	/	301
+/support.asp	/	301
+/xtseries.htm	/	301
+/XTEQ.asp	/	301
+/XTEQ12.asp	/	301
+
+# PDFs and manuals
+/pdf/Sunfire_Amplifier_Whitepaper.pdf	/	301
+/pdf/Sunfire_Subwoofer_Whitepaper.pdf	/	301
+/pdf/woofwhiteall.pdf	/	301
+/pdf/sunwhiteall.pdf	/	301
+/pdf/sunwhite03.pdf	/	301
+/pdf/Theater%20Grand%20IV%20Manual.pdf	/	301
+/pdf/Ultimate%20Receiver%20Manual%20RevC.pdf	/	301
+/pdf/TGA5_manual.pdf	/	301
+/pdf/600X2_300X2_manual.pdf	/	301
+/pdf/TGP5_manual.pdf	/	301
+/pdf/Symphonic%20Amp%20Owners%20Manual.pdf	/	301
+/pdf/True%20Subwoofer%20MKIV%20Manual.pdf	/	301
+/pdf/Sunfire401SERIES082508.pdf	/	301
+/pdf/newtechall.pdf	/	301
+/whitepapers/Sunfire_Amplifier_Whitepaper.pdf	/	301
+/whitepapers/Sunfire_Subwoofer_Whitepaper.pdf	/	301
+/manuals/HRS_manual_revB.pdf	/	301
+/manuals/Theater%20Grand%20IV%20Manual.pdf	/	301
+/manuals/Sunfire%20Series%20II%20Late%20Model%20Stereo%20Power%20Amplifier%20Manual.pdf	/	301
+/manuals/Sunfire_TGA_7401_7201_Manual.pdf	/	301
+/manuals/TRUE%20S%20...%2010300D.pdf	/	301
+/downloads/manuals/Ultimate%20Receiver%20Manual.pdf	/	301
+/downloads/Sunfire%20TGIII-Ultimate%20Receiver%20RS232%20commands%201-8-04.pdf	/	301
+
+# Science pages
+/science-sunfire/high-back-emf	/high-back-emf.html	301
+/science-sunfire/tracking-downconverter	/	301
+/science-sunfire/cinema-ribbon	/	301
+/science-sunfire/subwoofer-placement	/	301
+
+# Support pages
+/support/sunfire-faqs	/	301
+/support/sunfire-factory-service	/	301
+/support/sunfire-factory-service.html	/	301
+/support/sunfire-warranty	/	301
+/support/sunfire-discontinued-products	/	301
+/support/sunfire-discontinued-products.html	/	301
+/support/authorized-service-center	/	301
+
+# Product pages (newer format)
+/product/cinema-ribbon-trio-on-wall-loudspeaker-lacquered-rosewood-CRS3	/	301
+/product/single-12-1000w-powered-subwoofer-black-lacquer-HRS12	/	301
+/product/single-8-1000w-powered-subwoofer-black-lacquer-HRS8	/	301
+/product/matching-1u-amplifier-hrsiw8-subwoofer-HRSIW8AMP	/	/	301
+/product/7-x-400w-power-amplifier-TGA7401	/	301
+/product/atmos-d...b-XTATM265	/	301
+/product/wall...-8-235hx105-wide-requires-hrsiw8amp-HRSIW8CAB	/	/	301
+
+# Connect pages
+/connect/about-sunfire	/about.html	301
+/connect/where-buy-sunfire	/	301
+/connect/newsroom	/	301
+/connect/contact-us	/	301
+
+# Catch-all: any other sunfire.com path redirects to homepage
+/*	/	301
