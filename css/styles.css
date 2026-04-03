@@ -1470,3 +1470,430 @@ ul {
         gap: var(--space-md);
     }
 }
+
+/* ========================================
+   HIGH BACK-EMF PAGE STYLES
+   ======================================== */
+
+/* EMF Hero */
+.emf-hero {
+    position: relative;
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.emf-hero-bg {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+}
+
+.emf-hero-bg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.emf-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        to bottom,
+        rgba(10, 10, 10, 0.3) 0%,
+        rgba(10, 10, 10, 0.6) 50%,
+        rgba(10, 10, 10, 0.95) 100%
+    );
+    z-index: 1;
+}
+
+.emf-hero-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    max-width: 700px;
+    padding: 0 var(--space-lg);
+}
+
+.emf-hero-eyebrow {
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--color-accent);
+    margin-bottom: var(--space-md);
+}
+
+.emf-hero-title {
+    font-family: var(--font-display);
+    font-size: clamp(2.5rem, 5vw, 4rem);
+    font-weight: 500;
+    line-height: 1.1;
+    color: var(--color-text);
+    margin-bottom: var(--space-md);
+}
+
+.emf-hero-subtitle {
+    font-size: 1.1rem;
+    color: var(--color-text-secondary);
+    line-height: 1.6;
+}
+
+/* EMF Intro */
+.emf-intro {
+    padding: var(--space-4xl) 0;
+}
+
+.emf-intro-content {
+    max-width: var(--container-narrow);
+    margin: 0 auto;
+}
+
+.emf-intro-content p {
+    font-size: 1.05rem;
+    color: var(--color-text-secondary);
+    line-height: 1.8;
+    margin-bottom: var(--space-md);
+}
+
+.emf-intro-highlight {
+    font-size: 1.15rem !important;
+    color: var(--color-text) !important;
+    padding: var(--space-md) var(--space-lg);
+    border-left: 3px solid var(--color-accent);
+    background: var(--color-accent-subtle);
+    border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+}
+
+/* Hoffman's Iron Law */
+.emf-hoffman {
+    padding: var(--space-4xl) 0;
+    background: var(--color-bg-elevated);
+}
+
+.emf-hoffman-content {
+    text-align: center;
+    max-width: var(--container-narrow);
+    margin: 0 auto;
+}
+
+.emf-hoffman-text {
+    font-size: 1.1rem;
+    color: var(--color-text-secondary);
+    margin-bottom: var(--space-xl);
+}
+
+.hoffman-laws {
+    display: flex;
+    justify-content: center;
+    gap: var(--space-xl);
+    flex-wrap: wrap;
+}
+
+.hoffman-law {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+    padding: var(--space-md) var(--space-xl);
+    background: var(--color-bg-card);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+}
+
+.hoffman-law-number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    background: var(--color-accent);
+    color: var(--color-bg);
+    font-family: var(--font-display);
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.hoffman-law-text {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--color-text);
+}
+
+/* EMF Approaches */
+.emf-approaches {
+    padding: var(--space-4xl) 0;
+}
+
+.emf-approach {
+    margin-bottom: var(--space-3xl);
+    padding-bottom: var(--space-3xl);
+    border-bottom: 1px solid var(--color-border);
+}
+
+.emf-approach:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.emf-approach-header {
+    text-align: center;
+    margin-bottom: var(--space-xl);
+}
+
+.emf-approach-number {
+    display: block;
+    font-family: var(--font-display);
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--color-accent-subtle);
+    line-height: 1;
+    margin-bottom: var(--space-xs);
+}
+
+.emf-approach-title {
+    font-family: var(--font-display);
+    font-size: 1.75rem;
+    font-weight: 500;
+    color: var(--color-text);
+}
+
+.emf-approach-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-xl);
+    align-items: center;
+    margin-bottom: var(--space-lg);
+}
+
+.emf-approach-content p {
+    font-size: 1rem;
+    color: var(--color-text-secondary);
+    line-height: 1.7;
+    margin-bottom: var(--space-sm);
+}
+
+.emf-approach-list {
+    margin-top: var(--space-sm);
+}
+
+.emf-approach-list li {
+    font-size: 0.95rem;
+    color: var(--color-text-secondary);
+    line-height: 1.6;
+    padding: 0.4rem 0;
+    padding-left: 1.25rem;
+    position: relative;
+}
+
+.emf-approach-list li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0.85rem;
+    width: 6px;
+    height: 6px;
+    background: var(--color-accent);
+    border-radius: 50%;
+}
+
+.emf-approach-warning {
+    color: #e74c3c !important;
+    font-size: 1.1rem !important;
+}
+
+.emf-approach-image {
+    border-radius: var(--radius-md);
+    overflow: hidden;
+}
+
+.emf-approach-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: var(--radius-md);
+}
+
+/* Scorecard */
+.emf-scorecard {
+    display: flex;
+    align-items: center;
+    gap: var(--space-lg);
+    padding: var(--space-md) var(--space-lg);
+    background: var(--color-bg-card);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    flex-wrap: wrap;
+}
+
+.emf-scorecard-label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--color-text-muted);
+    white-space: nowrap;
+}
+
+.emf-scorecard-items {
+    display: flex;
+    gap: var(--space-md);
+    flex-wrap: wrap;
+}
+
+.emf-scorecard-item {
+    display: flex;
+    align-items: center;
+    gap: var(--space-xs);
+    font-size: 0.9rem;
+    color: var(--color-text-secondary);
+}
+
+.scorecard-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.emf-scorecard-success {
+    border-color: var(--color-accent-border);
+    background: var(--color-accent-subtle);
+}
+
+/* Solution approach special styling */
+.emf-approach-solution {
+    padding: var(--space-xl);
+    background: var(--color-bg-elevated);
+    border-radius: var(--radius-md);
+    border: 1px solid var(--color-accent-border);
+}
+
+.emf-approach-solution .emf-approach-number {
+    color: var(--color-accent);
+}
+
+.emf-approach-solution-list li {
+    font-weight: 500;
+    color: var(--color-text);
+}
+
+.emf-approach-solution-list li::before {
+    background: var(--color-accent);
+    width: 8px;
+    height: 8px;
+}
+
+/* EMF Result */
+.emf-result {
+    padding: var(--space-4xl) 0;
+    background: var(--color-bg-elevated);
+}
+
+.emf-result-content {
+    text-align: center;
+    max-width: var(--container-narrow);
+    margin: 0 auto;
+}
+
+.emf-result-text {
+    font-size: 1.15rem;
+    color: var(--color-text-secondary);
+    line-height: 1.7;
+    margin-bottom: var(--space-xl);
+}
+
+.emf-result-items {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-md);
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.emf-result-item {
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+    padding: var(--space-md) var(--space-lg);
+    background: var(--color-bg-card);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    text-align: left;
+}
+
+.emf-result-icon {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.emf-result-item-label {
+    display: block;
+    font-family: var(--font-display);
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--color-accent);
+    margin-bottom: 2px;
+}
+
+.emf-result-item-desc {
+    font-size: 0.9rem;
+    color: var(--color-text-secondary);
+}
+
+/* EMF Page Responsive */
+@media (max-width: 1024px) {
+    .emf-approach-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .emf-approach-image {
+        order: -1;
+    }
+}
+
+@media (max-width: 768px) {
+    .emf-hero {
+        min-height: 50vh;
+    }
+    
+    .hoffman-laws {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .hoffman-law {
+        width: 100%;
+        max-width: 300px;
+        justify-content: center;
+    }
+    
+    .emf-scorecard {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: var(--space-sm);
+    }
+    
+    .emf-scorecard-items {
+        width: 100%;
+        justify-content: space-between;
+    }
+    
+    .emf-approach-solution {
+        padding: var(--space-lg);
+    }
+}
+
+@media (max-width: 480px) {
+    .emf-result-items {
+        gap: var(--space-sm);
+    }
+    
+    .emf-result-item {
+        padding: var(--space-sm) var(--space-md);
+    }
+}
