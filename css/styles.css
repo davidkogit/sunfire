@@ -236,6 +236,14 @@ ul {
     color: var(--color-text);
 }
 
+.nav-links a.active {
+    color: var(--color-accent);
+}
+
+.mobile-menu-link.active {
+    color: var(--color-accent);
+}
+
 .nav-cta {
     padding: 0.5rem 1.25rem;
     background-color: var(--color-accent);
@@ -1170,6 +1178,279 @@ ul {
         flex-direction: column;
         gap: var(--space-sm);
         text-align: center;
+    }
+}
+
+/* ========================================
+   ABOUT PAGE STYLES
+   ======================================== */
+
+/* About Hero */
+.about-hero {
+    position: relative;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.about-hero-bg {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+}
+
+.about-hero-bg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.about-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        to bottom,
+        rgba(10, 10, 10, 0.4) 0%,
+        rgba(10, 10, 10, 0.7) 50%,
+        rgba(10, 10, 10, 0.95) 100%
+    );
+    z-index: 1;
+}
+
+.about-hero-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    max-width: 800px;
+    padding: 0 var(--space-lg);
+}
+
+.about-hero-eyebrow {
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--color-accent);
+    margin-bottom: var(--space-md);
+}
+
+.about-hero-title {
+    font-family: var(--font-display);
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    font-weight: 500;
+    line-height: 1.15;
+    color: var(--color-text);
+}
+
+.about-hero-title em {
+    font-style: italic;
+    color: var(--color-accent);
+}
+
+/* About Story */
+.about-story {
+    padding: var(--space-4xl) 0;
+}
+
+.about-story-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-3xl);
+    align-items: center;
+}
+
+.about-story-image {
+    border-radius: var(--radius-md);
+    overflow: hidden;
+}
+
+.about-story-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: var(--radius-md);
+}
+
+.about-story-content .section-subtitle {
+    max-width: none;
+}
+
+.about-story-content p {
+    font-size: 1rem;
+    color: var(--color-text-secondary);
+    line-height: 1.7;
+    margin-bottom: var(--space-md);
+}
+
+.about-story-content p:last-child {
+    margin-bottom: 0;
+}
+
+/* About Philosophy */
+.about-philosophy {
+    padding: var(--space-4xl) 0;
+    background: var(--color-bg-elevated);
+}
+
+.about-philosophy-content {
+    text-align: center;
+    max-width: var(--container-narrow);
+    margin: 0 auto;
+}
+
+.about-philosophy-text {
+    font-size: 1.05rem;
+    color: var(--color-text-secondary);
+    line-height: 1.7;
+    margin-bottom: var(--space-md);
+}
+
+.about-philosophy-text:last-of-type {
+    margin-bottom: 0;
+}
+
+/* About Tech Showcase */
+.about-tech {
+    padding: var(--space-4xl) 0;
+}
+
+.about-tech-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-lg);
+}
+
+.about-tech-card {
+    border-radius: var(--radius-md);
+    overflow: hidden;
+    background: var(--color-bg-card);
+    border: 1px solid var(--color-border);
+    transition: all var(--transition-base);
+}
+
+.about-tech-card:hover {
+    border-color: var(--color-accent-border);
+    transform: translateY(-4px);
+}
+
+.about-tech-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+}
+
+.about-tech-card-content {
+    padding: var(--space-lg);
+}
+
+.about-tech-card-content h3 {
+    font-family: var(--font-display);
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: var(--space-xs);
+}
+
+.about-tech-card-content p {
+    font-size: 0.9rem;
+    color: var(--color-text-secondary);
+    line-height: 1.6;
+}
+
+/* About Nice */
+.about-nice {
+    padding: var(--space-4xl) 0;
+    background: var(--color-bg-elevated);
+}
+
+.about-nice-content {
+    text-align: center;
+    max-width: var(--container-narrow);
+    margin: 0 auto;
+}
+
+.about-nice-text {
+    font-size: 1.05rem;
+    color: var(--color-text-secondary);
+    line-height: 1.7;
+    margin-bottom: var(--space-md);
+}
+
+.about-nice-text:last-of-type {
+    margin-bottom: var(--space-xl);
+}
+
+.about-nice-content .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-xs);
+}
+
+.about-nice-content .btn svg {
+    flex-shrink: 0;
+}
+
+/* About Dealers */
+.about-dealers {
+    padding: var(--space-4xl) 0;
+}
+
+.about-dealers-content {
+    text-align: center;
+    max-width: var(--container-narrow);
+    margin: 0 auto;
+}
+
+.about-dealers-text {
+    font-size: 1.05rem;
+    color: var(--color-text-secondary);
+    line-height: 1.7;
+    margin-bottom: var(--space-xl);
+}
+
+.about-dealers-actions {
+    display: flex;
+    gap: var(--space-md);
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* About Page Responsive */
+@media (max-width: 1024px) {
+    .about-story-grid {
+        grid-template-columns: 1fr;
+        gap: var(--space-xl);
+    }
+    
+    .about-tech-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-hero {
+        min-height: 50vh;
+    }
+    
+    .about-tech-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .about-tech-card img {
+        height: 200px;
+    }
+    
+    .about-dealers-actions {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .about-dealers-actions .btn {
+        width: 100%;
+        max-width: 280px;
     }
 }
 
